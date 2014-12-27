@@ -21,7 +21,7 @@ mysqlgallery3:
     - MYSQL_PASSWORD: XXXXXX
     
 gallery3:
-  image: mathieuruelan/gallery3-docker
+  image: mathieuruelan/gallery3
   ports:
     - "8889:80"
   links:
