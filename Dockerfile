@@ -22,7 +22,7 @@ RUN \
 
 RUN \
   git clone git://github.com/rioriost/gallery3.git && \ 
-  cd /gallery3 && git checkout 3.0.9 && rm -rf .git 
+  cd /gallery3 && rm -rf .git 
 
 RUN \
   git clone https://github.com/gallery/gallery3-contrib.git && \
