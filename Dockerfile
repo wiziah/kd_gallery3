@@ -21,7 +21,7 @@ RUN \
    apt-get clean autoclean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 
 
 RUN \
-  git clone git://github.com/gallery/gallery3.git && \ 
+  git clone git://github.com/rioriost/gallery3.git && \ 
   cd /gallery3 && git checkout 3.0.9 && rm -rf .git 
 
 RUN \
