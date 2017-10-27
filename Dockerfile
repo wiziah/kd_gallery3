@@ -28,6 +28,10 @@ RUN \
   git clone https://github.com/gallery/gallery3-contrib.git && \
   mv /gallery3-contrib/3.0/modules/* /gallery3/modules/ && rm -rf /gallery3-contrib
 
+RUN \
+  git clone https://github.com/yokawasa/gallery3-openid-azureadb2c-module.git && \
+  mv /gallery3-openid-azureadb2c-module/openid /gallery3/modules/ && rm -rf /gallery3-openid-azureadb2c-module
+
 RUN git clone https://github.com/mstoltenburg/html5_upload_progress.git && mv html5_upload_progress /gallery3/modules/
 
 #RUN \
