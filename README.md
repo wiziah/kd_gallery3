@@ -4,6 +4,10 @@ It's a project to easyly install gallery3 with mysql thanks docker
 
 ----------
 
+$ git clone https://github.com/rioriost/kd_gallery3
+$ cd kd_gallery3
+$ docker build --tag kd_gallery3 .
+$ docker run kd_gallery3
 
 ##Installation
 
