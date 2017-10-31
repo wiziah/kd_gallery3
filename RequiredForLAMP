@@ -1,0 +1,23 @@
+To install Gallery 3 you need the following:
+Summary: Requirements -- Detailed Requirements:
+A *nix based web server (Unix, Linux) with PHP 5.2.3 or later
+For detailed windows IIS directions: http://codex.galleryproject.org/Gallery3:Installation_on_Windows_Server_2008_and_IIS7
+PHP must have short_open_tag enabled
+PHP must have the parse_ini_file() function enabled. (it is by default)
+PHP must have safe_mode disabled (it is by default)
+Check the PHP file size upload limit (upload_max_filesize, it is 2M by default)
+exec and shell_exec are not listed in disable_functions
+open_basedir settings that ensure that the image toolkits(s) and other functions don't interfere with the operation of this web based program.
+Required PHP extensions:
+Perl Compatible Regular Expressions (PCRE) - http://php.net/pcre
+Standard PHP Library (SPL) - http://php.net/spl
+Reflection - http://php.net/reflection
+Filter - http://php.net/filter
+Iconv - http://php.net/iconv
+SimpleXML - http://php.net/simplexml
+Multibyte String (mbstring) - http://php.net/mbstring
+Ctype - http://php.net/ctype
+JavaScript Object Notation (JSON) - http://php.net/manual/en/book.json.php
+A MySQL5+ database
+Apache 2.2 or newer is required for G3
+The installer checks all requirements and will warn you if any of them aren't met. The PHP extensions and configuration comes with the standard PHP package so should be present on most systems by default.
