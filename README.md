@@ -1,6 +1,6 @@
 # gallery3-docker
 
-It's a project to easyly install gallery3 with mysql thanks docker
+It's a project to easily install gallery3 with mysql thanks docker
 
 ----------
 ## Setup ACR
